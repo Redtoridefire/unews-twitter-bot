@@ -1,5 +1,6 @@
 # Use the Google Search API to search for the title within the "example.com" domain
 # Replace "YOUR_GOOGLE_API_KEY" with your own API key
+# This exlude file is not needed to run the bot all exluding can be done by editing the main code, this is for those who like things seperate
 params = {
     'q': title,
     'key': 'YOUR_GOOGLE_API_KEY',
