@@ -21,3 +21,13 @@ This will search for articles that are published on either example.com or exampl
 Alternatively, you can also use the inurl: operator in your search query to search for articles that have a particular string in their URL. For example, to search for articles on example.com and example.net that have the string article in their URL, you can use the search query inurl:article (site:example.com OR site:example.net).
 
 Make sure you tweepy requestsinstalled
+
+To run the code I provided, you will need to have the following files:
+
+A Python file: This is where you will write and run the code. You can name the file anything you like, such as twitter_bot.py.
+
+API keys and access tokens: You will need to obtain API keys and access tokens for your Twitter Developer account. These will allow you to authenticate your bot and access the Twitter API. You can find more information on how to obtain these here: https://developer.twitter.com/en/docs/twitter-api/getting-started/authentication
+
+A Google API key and CX: You will also need to obtain a Google API key and CX to use the Google search API. You can find more information on how to obtain these here: https://developers.google.com/custom-search/v1/overview
+
+Libraries: The code I provided uses the tweepy and requests libraries. These libraries provide functions that allow you to access and interact with the Twitter and Google APIs, respectively. Make sure you have these libraries installed in your Python environment by running the following command:
