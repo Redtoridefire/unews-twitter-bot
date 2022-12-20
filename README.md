@@ -11,3 +11,11 @@ Code allows you to exclude certain websites or domains of your choosing from the
 For example, if you want to exclude all results from the website example.com, you can use the search query SEARCH_QUERY -site:example.com, where SEARCH_QUERY is the search query you want to use.
 
 You can also exclude multiple websites or domains by including multiple -site: operators in your search query. For example, to exclude results from example.com and example.net, you can use the search query SEARCH_QUERY -site:example.com -site:example.net.
+
+You can include the websites you want to search in the code by specifying them in your search query.
+
+For example, if you want to search for articles on the websites example.com and example.net, you can use the search query site:example.com OR site:example.net SEARCH_QUERY, where SEARCH_QUERY is the search query you want to use.
+
+This will search for articles that are published on either example.com or example.net and match the SEARCH_QUERY criteria.
+
+Alternatively, you can also use the inurl: operator in your search query to search for articles that have a particular string in their URL. For example, to search for articles on example.com and example.net that have the string article in their URL, you can use the search query inurl:article (site:example.com OR site:example.net).
