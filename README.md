@@ -20,4 +20,4 @@ This will search for articles that are published on either example.com or exampl
 
 Alternatively, you can also use the inurl: operator in your search query to search for articles that have a particular string in their URL. For example, to search for articles on example.com and example.net that have the string article in their URL, you can use the search query inurl:article (site:example.com OR site:example.net).
 
-Make sure you have pip installed
+Make sure you tweepy requestsinstalled
